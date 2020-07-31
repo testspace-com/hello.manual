@@ -1,0 +1,16 @@
+name: Setup
+on:
+  repository_dispatch:
+    types: [setup]
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Call Script implementing setup fixture
+        run: node ./.github/workflows/handler.js "$PAYLOAD"
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
