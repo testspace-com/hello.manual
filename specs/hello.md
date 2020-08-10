@@ -1,3 +1,6 @@
+---
+testspace:
+---
 # Hello World
 This is a manual test.
 
