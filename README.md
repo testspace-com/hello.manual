@@ -1,5 +1,4 @@
 # Hello Manual
-Example Manual Tests using serverless automation with GitHub Actions. 
+Simple *Hello World* Manual tests example. How to implement and run manual tests based on a repository can be found in the Testspace [Help Tutorial](https://help.testspace.com/docs/tutorial/getting-started) section.
 
-The example is based on the help [Overview](https://help.testspace.com/docs/manual/getting-started-overview) section covering manual testing. 
  
