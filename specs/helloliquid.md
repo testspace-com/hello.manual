@@ -1,12 +1,13 @@
 ---
 testspace:
-title: Hello World
+title: Helllo Liquid
 ---
 
 {% if page %} {% assign spec = page %} {% endif %}
 
-# Hello World
-This is a manual test.
+# {{ spec.title }}
+{% include example-intro.md %}
+
 
 ## Test Case One
 Some description here.
@@ -14,8 +15,5 @@ Some description here.
 * check this  
 * check that
 
-## Test Case Two
-Some description here.
 
-* check this
-* check that
+{% include example-case.md name="Test Case Two" %}

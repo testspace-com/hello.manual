@@ -1,14 +1,18 @@
 ---
 testspace:
+title: Helllo Automation
 before:
   name: github::setup
   description: example input
   input: 
-    a: one
-    b: two
+    p1: one
+    p2: two
 ---
 
-# Hello Automation
+{% if page %} {% assign spec = page %} {% endif %}
+
+
+# {{ spec.title }}
 This is a manual test.
 
 ## Test Case One

@@ -7,10 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '12'
-      - name: Call Script implementing setup fixture
-        run: node ./.github/workflows/handler.js "$PAYLOAD"
-        env:
-          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+      - name: Automation here
+        run: |
+          echo "Call a script to do something .."
+          echo "p1 = " ${{ toJson(github.event.client_payload.p1) }}
+          echo "p2 = " ${{ toJson(github.event.client_payload.p2) }}
