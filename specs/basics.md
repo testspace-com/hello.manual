@@ -5,7 +5,7 @@ title: Basics
 
 {% if page %} {% assign spec = page %} {% endif %}
 
-# Hello World
+# Basics
 This is a manual test.
 
 ## Test Case One

@@ -37,13 +37,3 @@ View the Specs using Jekyll in the *specs* folder.
 cd specs
 bundle exec jekyll serve 
 ```
-
----
-
-
-## Usage
-The **Specs** folder contains a few sample `Test Specs` for demonstration purposes. Manual testings can be easily integrated with automated testing, even though the execution of the tests can occur at different times. 
-
-- Hello World
-- Hello Liquid - refer [here](https://help.testspace.com/manual/implementation-spec#variables)
-- Hello Automation - refer [here](https://help.testspace.com/manual/implementation-automation)

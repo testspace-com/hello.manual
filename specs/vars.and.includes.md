@@ -8,7 +8,6 @@ title: Vars and Includes
 # {{ spec.title }}
 {% include example-intro.md %}
 
-
 ## Test Case One
 Some description here.
 

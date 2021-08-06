@@ -11,9 +11,11 @@ before:
 
 {% if page %} {% assign spec = page %} {% endif %}
 
-
 # {{ spec.title }}
-This is a manual test.
+This is a manual test that leverages a automated **SETUP FIXTURE** via GitHub Actions. 
+
+
+> USES A AUTOMATED FIXTURE 🎁
 
 ## Test Case One
 Some description here.
