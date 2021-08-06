@@ -1,6 +1,6 @@
 ---
 testspace:
-title: Helllo Liquid
+title: Vars and Includes
 ---
 
 {% if page %} {% assign spec = page %} {% endif %}

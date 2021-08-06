@@ -1,6 +1,6 @@
 ---
 testspace:
-title: Helllo Automation
+title: Fixture Automation
 before:
   name: github::setup
   description: example input
