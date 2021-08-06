@@ -1,7 +1,11 @@
 ---
 testspace:
+title: Basics
 ---
-# Hello World
+
+{% if page %} {% assign spec = page %} {% endif %}
+
+# Basics
 This is a manual test.
 
 ## Test Case One
