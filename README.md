@@ -3,7 +3,7 @@ This repo provides example test specs for demonstration purposes:
 
 
 - Repo based test specs
-- Using [Liquid](https://jekyllrb.com/docs/liquid/) for leveraging [variables](https://help.testspace.com/manual/implementation-spec/#variables) and [includes](https://help.testspace.com/manual/implementation-spec/#includes) when implementing tests
+- Using [Liquid](https://jekyllrb.com/docs/liquid/) for leveraging [variables](https://help.testspace.com/manual/implementation-spec#variables) and [includes](https://help.testspace.com/manual/implementation-spec#includes) and [logic](https://help.testspace.com/manual/implementation-spec#includes) when implementing test specs
 - Using [GitHub Actions](https://help.testspace.com/manual/implementation-automation#github-workflows) for automating fixturing
 
 > The repo is a [template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template), making it easy to create your own "sandbox" repo(s) to experiment with writing test specs.
