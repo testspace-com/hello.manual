@@ -5,7 +5,7 @@ Testspace offers the following unique functionality regarding Manual testing:
 
 - Integration with GitHub Repositories
 - Built-in Liquid [templating language](https://help.testspace.com/manual/implementation-spec#template-language) support
-- [Automated Fixturing](https://help.testspace.com/manual/implementation-automation)
+- [Automated Fixturing](https://help.testspace.com/manual/implementation-spec#automated-fixtures)
 - GitHub [issues](https://help.testspace.com/manual/execution-session#issues) integration
 - [Exploratory testing](https://help.testspace.com/manual/execution-session#exploratory) built-in
 
