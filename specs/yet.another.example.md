@@ -2,7 +2,7 @@
 testspace:
 title: Yet Another Example
 ---
-
+ 
 {% if page %} {% assign spec = page %} {% endif %}
 
 # {{ spec.title }}
