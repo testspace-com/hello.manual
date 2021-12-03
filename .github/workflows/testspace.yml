@@ -21,4 +21,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: echo "running ${IN_NAME} function"
+      - name: Echo test spec function name
+        run: echo "running ${IN_NAME} function"
