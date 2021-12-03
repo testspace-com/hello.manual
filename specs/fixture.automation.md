@@ -4,7 +4,7 @@ title: Fixture Automation
 before:
   name: github::setup
   description: example input
-  input: 
+  payload: 
     p1: one
     p2: two
 ---
@@ -12,7 +12,7 @@ before:
 {% if page %} {% assign spec = page %} {% endif %}
 
 # {{ spec.title }}
-This is a manual test that leverages a automated **SETUP FIXTURE** via GitHub Actions. 
+This is a manual test that leverages a automated **BEFORE FIXTURE** via GitHub Actions. 
 
 
 > USES A AUTOMATED FIXTURE 🎁
