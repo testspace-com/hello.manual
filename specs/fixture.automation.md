@@ -2,7 +2,7 @@
 testspace:
 title: Fixture Automation
 before:
-  name: github::setup
+  name: github::fn-name1
   description: example input
   input: 
     p1: one
