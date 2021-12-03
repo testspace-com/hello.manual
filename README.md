@@ -1,5 +1,7 @@
 # Hello Manual
-This repo provides example test specs for demonstration purposes: 
+This repo provides example test specs for demonstration purposes. 
+
+> The repo is a [template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template), making it easy to create your own "sandbox" repo(s) to experiment with writing test specs.
 
 Testspace offers the following unique functionality regarding Manual testing:
 
@@ -9,7 +11,6 @@ Testspace offers the following unique functionality regarding Manual testing:
 - GitHub [issues](https://help.testspace.com/manual/execution-session#issues) integration
 - [Exploratory testing](https://help.testspace.com/manual/execution-session#exploratory) built-in
 
-> The repo is a [template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template), making it easy to create your own "sandbox" repo(s) to experiment with writing test specs.
 
 How to implement and run manual tests based on a repository can be found in the Testspace [Help Tutorial](https://help.testspace.com/tutorial/setup) section.
 
