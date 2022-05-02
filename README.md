@@ -1,8 +1,26 @@
 # Hello Manual
-This repo provides example test specs for demonstration purposes. 
+This repo provides manual test examples used for demonstration purposes. 
 
-> The repo is a [template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template), making it easy to create your own "sandbox" repo(s) to experiment with writing test specs.
+Refer to the [Manual Overview](https://help.testspace.com/manual/overview) for more details. 
 
+## Setup
+Testspace will automatically discover manual tests - called "test specs" - captured in your repository. Manual tests are implemented using plain text markdown and managed in GitHub. 
+
+```md
+  ---
+  testspace:
+  ---
+  # Hello
+  ## Case 1
+   - do this
+   - do that
+  ## Case 2
+    ..
+```
+
+> Check out the [github.dev](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#about-the-web-based-editor) web-based editor for creating and editing manual tests
+
+## Test Case Management
 Testspace offers the following unique functionality regarding Manual testing:
 
 - Integration with GitHub Repositories
@@ -14,28 +32,3 @@ Testspace offers the following unique functionality regarding Manual testing:
 
 How to implement and run manual tests based on a repository can be found in the Testspace [Help Tutorial](https://help.testspace.com/tutorial/setup) section.
 
-### Desktop Preview
-The Testspace Spec model is compatible with the GitHub [Jekyll](https://jekyllrb.com/) model, where a separate parsing and static HTML generation step occurs. As a result of this approach, it is easy to leverage Jekyll for local [desktop development and previewing](https://help.testspace.com/manual/desktop-preview).
-
-> Use Jekyll for local spec development and previewing.
-
-
-#### Setup
-To leverage Jekyll on the desktop, a few one-time steps are required. It is recommended to set up Jekyll in the same folder as your test specs (i.e. cd specs).
-
-> Note that [Ruby](https://www.ruby-lang.org/en/downloads/) version **2.5.0** or higher is required to be installed.
-
-Install dependencies.
-
-```
-cd specs
-gem install jekyll bundler
-bundle install
-```
-
-View the Specs using Jekyll in the *specs* folder.
-
-```
-cd specs
-bundle exec jekyll serve 
-```
