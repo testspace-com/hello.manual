@@ -18,7 +18,7 @@ Testspace will automatically discover manual tests - called "test specs" - captu
     ..
 ```
 
-> Check out the [github.dev](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#about-the-web-based-editor) web-based editor for creating and editing manual tests
+> Check out the [github.dev](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#about-the-web-based-editor) web-based editor for creating and editing manual tests.
 
 ## Test Case Management
 Testspace offers the following unique functionality regarding Manual testing:
